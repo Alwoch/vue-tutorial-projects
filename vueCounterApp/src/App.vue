@@ -4,11 +4,11 @@ import { ref } from "vue";
 const count = ref(0);
 
 const increaseCount = () => {
-  count++;
+  count.value++;
 };
 
 const decreaseCount = () => {
-  count--;
+  count.value--;
 };
 </script>
 <!-- Template -->
